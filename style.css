@@ -1,0 +1,30 @@
+.calculator {
+    border: 3px solid #f08080;
+    width: 100vh;
+    background-color: #87E1D3;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.row {
+    display: flex;
+}
+
+button {
+    flex-grow: 1;
+    height: 40px;
+    border-radius: 0;
+    border: 1px solid lightcoral;
+}
+
+button.double-wide {
+    flex-grow: 2;
+}
+
+.operation {
+    background-color: darkslategray;
+}
